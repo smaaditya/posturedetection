@@ -1,0 +1,21 @@
+[
+  {
+    "row": 1,
+    "posture": "normal",
+    "posture_confidence_pct": 99.0,
+    "posture_probabilities": {
+      "cervical lordosis": 0.0,
+      "lumbar lordosis": 0.0,
+      "normal": 99.0,
+      "scoliosis": 1.0,
+      "thoracic kyphosis": 0.0
+    },
+    "activity": "standing",
+    "activity_confidence_pct": 98.0,
+    "activity_probabilities": {
+      "sitting": 0.0,
+      "standing": 98.0,
+      "walking": 2.0
+    }
+  }
+]
