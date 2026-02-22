@@ -1,0 +1,49 @@
+{
+  "feature_cols": [
+    "C1x",
+    "C1y",
+    "C1z",
+    "C7x",
+    "C7y",
+    "C7z",
+    "T5x",
+    "T5y",
+    "T5z",
+    "T12x",
+    "T12y",
+    "T12z",
+    "L5x",
+    "L5y",
+    "L5z",
+    "cervical_angle",
+    "thoracic_angle",
+    "lumbar_angle",
+    "scoliosis_angle"
+  ],
+  "posture_classes": [
+    "cervical lordosis",
+    "lumbar lordosis",
+    "normal",
+    "scoliosis",
+    "thoracic kyphosis"
+  ],
+  "activity_classes": [
+    "sitting",
+    "standing",
+    "walking"
+  ],
+  "posture_top5_features": {
+    "cervical_angle": 0.14319008938454303,
+    "scoliosis_angle": 0.1373503381156938,
+    "lumbar_angle": 0.13328582403541053,
+    "C1x": 0.13275442864287887,
+    "thoracic_angle": 0.130200067873682
+  },
+  "activity_top5_features": {
+    "thoracic_angle": 0.17401360837066732,
+    "C7x": 0.1666788512922316,
+    "C1x": 0.07678283353618691,
+    "L5x": 0.07446344527289672,
+    "cervical_angle": 0.06962309383492715
+  }
+}
